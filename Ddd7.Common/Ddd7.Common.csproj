@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AssemblyName>Ddd7.Common</AssemblyName>
+        <RootNamespace>Ddd7.Common</RootNamespace>
+        <LangVersion>7</LangVersion>
+    </PropertyGroup>
+
+</Project>
