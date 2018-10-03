@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Autofac" Version="4.9.0-beta1" />
+      <PackageReference Include="FluentAssertions" Version="5.4.2" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0-preview-20180924-03" />
+      <PackageReference Include="xunit" Version="2.4.1-pre.build.4059" />
+      <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1-pre.build.4059" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Ddd7.Common\Ddd7.Common.csproj" />
+      <ProjectReference Include="..\Ddd7.Messaging.AutofacIntegration\Ddd7.Messaging.AutofacIntegration.csproj" />
+    </ItemGroup>
+
+</Project>

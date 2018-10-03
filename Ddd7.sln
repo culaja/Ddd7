@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Ddd7.Common\Ddd7.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ddd7.Messaging.AutofacIntegration", "Ddd7.Messaging.AutofacIntegration\Ddd7.Messaging.AutofacIntegration.csproj", "{DDE14B44-F56C-4F2F-8449-67A32074DCB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ddd7.Tests", "Ddd7.Tests\Ddd7.Tests.csproj", "{3D2B6CA0-ACC1-423B-809C-EAAF334AAB39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{DDE14B44-F56C-4F2F-8449-67A32074DCB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE14B44-F56C-4F2F-8449-67A32074DCB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDE14B44-F56C-4F2F-8449-67A32074DCB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2B6CA0-ACC1-423B-809C-EAAF334AAB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2B6CA0-ACC1-423B-809C-EAAF334AAB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2B6CA0-ACC1-423B-809C-EAAF334AAB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2B6CA0-ACC1-423B-809C-EAAF334AAB39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
